@@ -1,0 +1,13 @@
+= docker-drools-wb-tomcat7-compose
+example for docker-compose to run https://registry.hub.docker.com/u/ollin/drools-wb-tomcat7/
+
+checkout and run:
+
+[source]
+----
+sudo docker-compose up -d
+----
+
+Open your browser and use `http://localhost:8080/droolswb/` as URL. Use `drools` as username and password.
+
+Username and passwords are configured via the `/tomcat/tomcat-users.xml` file. 

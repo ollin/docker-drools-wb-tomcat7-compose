@@ -1,0 +1,6 @@
+droolswb:
+  image: ollin/drools-wb-tomcat7
+  ports:
+    - "8080:8080"
+  volumes:
+    - "./tomcat/tomcat-users.xml:/usr/local/tomcat/conf/tomcat-users.xml:ro"
