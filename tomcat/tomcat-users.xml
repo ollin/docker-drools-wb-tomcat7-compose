@@ -11,6 +11,6 @@
   <role rolename="analyst"/>
   <role rolename="developer"/>
   <role rolename="manager"/>
-  <role rolename="manager"/>
+  <role rolename="user"/>
   <user username="drools" password="drools" roles="admin"/> 
 </tomcat-users>
